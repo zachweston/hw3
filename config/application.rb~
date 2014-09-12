@@ -20,7 +20,4 @@ module Hw3
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
   end
-  Hw3::Application.routes.draw do
-	resources :users
-  end
 end
